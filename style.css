@@ -1,0 +1,38 @@
+/*barvy cool gray #817E9F 
+dark purple #291528 
+black olive #3A3E3B 
+ash grey #CADBC8 
+blue gray #7192BE*/
+
+body {font-family: "Quicksand", serif;
+    font-size: 18px;
+    padding:0;}
+
+h1, h2 {color: #291528;
+        font-family:"EB Garamond", serif;
+        text-align:center;}
+
+h1 {font-size: 50px;}
+h2 {font-size: 28px;
+    padding: 15px;}
+
+/*img {border-radius: 50%; width: 10%; float:left;}*/
+
+.hlavicka {background-color:#d8e2d7;
+            padding: 35px;
+            text-align: center;}
+.hlavicka h2 {font-size:46px;}
+
+.osobni-udaje {overflow: auto;}
+.osobni-udaje td {padding:5px 25px;}
+
+.vzdelani {font-size:18px;}
+
+.paticka {background-color:#291528; 
+        color: white;
+        text-align: center;
+        padding: 25px;
+        font-size:16px;}
+
+.osobni-udaje, .vzdelani, .prace, .jazyky, .ostatni, .zajmy {padding: 10px 20%;}
+
