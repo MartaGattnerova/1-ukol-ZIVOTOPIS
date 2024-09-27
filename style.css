@@ -14,42 +14,36 @@ h1, h2 {color: #471b44;
         font-family:"EB Garamond", serif;
         text-align:center;}
 
-h1 {font-size: 50px;
-    padding-top: 35px;}
-h2 {font-size: 28px;
-    margin-top:35px;}
+h1 {font-size: 60px;}
+h2 {font-size: 28px;}
 
-img {border-radius: 10px; width: 20%; float:left;}
-/*pruh vedle stránky
-.osobni-udaje, .vzdelani, .prace, .jazyky, .ostatni, .zajmy {margin: 0 250px;}
-*/
-.hlavicka {background-color:#d8e2d7;
-            text-align: center;
-            padding: 35px;}
+img {border-radius: 10px; width: 15%; overflow: auto;}
+
+.hlavicka {text-align: center;
+            padding: 35px;
+            background-image: url(foto/pozadi.png); 
+            background-repeat: no-repeat; 
+            background-size: cover;}
 .hlavicka h2 {font-size:46px;
-            padding-bottom: 35px;}
+            font-style:italic;}
 
-.osobni-udaje {overflow: auto;
-                background-color: #ecebeb;}
-.osobni-udaje td {padding:5px 25px;}
-
+.osobni-udaje, .prace, .ostatni {background-color: #ecebeb;}
 .vzdelani, .jazyky, .zajmy {background-color: #d9d9d9;}
-.vzdelani td {padding: 5px 25px;}
 
-.prace {background-color: #ecebeb;}
-.prace td {padding:5px 25px;}
-.prace th {text-align:left;}
+.osobni-udaje td, .vzdelani td, .prace td, .vzdelani th, .prace th {padding: 5px 25px;}
+.vzdelani table, .prace table, .osobni-udaje table {margin: 20px;}
 
-.jazyky ul, .ostatni ul, .zajmy ul {list-style-type: none;
+.prace th, .vzdelani th {text-align:left;}
+
+.jazyky ul, .ostatni ul, .zajmy ul 
+            {list-style-type: none;
             padding-left:0;
             text-align: center;}
-
-.ostatni {background-color: #ecebeb;}
 
 .paticka {background-color:#291528; 
         color: white;
         text-align: center;
-        padding: 25px;
+        padding: 5px;
         font-size:16px;}
 
 .osobni-udaje, .vzdelani, .prace, .jazyky, .ostatni, .zajmy {padding: 10px 20%;}
